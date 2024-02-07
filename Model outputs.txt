@@ -1,0 +1,428 @@
+Model 0
+Hidden layers: 1 	 Hidden layer size: 10 	 Activation function: tanh
+
+	Precision:
+		ULTRAKILL: 0.38
+		Mario Galaxy: 0.8
+
+	Recall:
+		ULTRAKILL: 0.508
+		Mario Galaxy: 0.427
+
+	F1:
+		ULTRAKILL: 0.388
+		Mario Galaxy: 0.554
+
+	Accuracy: 0.573
+	Macro F1: 0.388
+
+
+
+
+
+Model 1
+Hidden layers: 10 	 Hidden layer size: 10 	 Activation function: tanh
+
+	Precision:
+		ULTRAKILL: 0.71
+		Mario Galaxy: 0.965
+
+	Recall:
+		ULTRAKILL: 0.968
+		Mario Galaxy: 0.751
+
+	F1:
+		ULTRAKILL: 0.809
+		Mario Galaxy: 0.84
+
+	Accuracy: 0.827
+	Macro F1: 0.809
+
+
+
+
+
+Model 2
+Hidden layers: 100 	 Hidden layer size: 10 	 Activation function: tanh
+
+	Precision:
+		ULTRAKILL: 0.84
+		Mario Galaxy: 0.894
+
+	Recall:
+		ULTRAKILL: 0.911
+		Mario Galaxy: 0.83
+
+	F1:
+		ULTRAKILL: 0.871
+		Mario Galaxy: 0.857
+
+	Accuracy: 0.865
+	Macro F1: 0.871
+
+
+
+
+
+Model 3
+Hidden layers: 1 	 Hidden layer size: 100 	 Activation function: tanh
+
+	Precision:
+		ULTRAKILL: 0.51
+		Mario Galaxy: 0.882
+
+	Recall:
+		ULTRAKILL: 0.716
+		Mario Galaxy: 0.671
+
+	F1:
+		ULTRAKILL: 0.549
+		Mario Galaxy: 0.727
+
+	Accuracy: 0.681
+	Macro F1: 0.549
+
+
+
+
+
+Model 4
+Hidden layers: 10 	 Hidden layer size: 100 	 Activation function: tanh
+
+	Precision:
+		ULTRAKILL: 0.81
+		Mario Galaxy: 0.918
+
+	Recall:
+		ULTRAKILL: 0.925
+		Mario Galaxy: 0.807
+
+	F1:
+		ULTRAKILL: 0.861
+		Mario Galaxy: 0.857
+
+	Accuracy: 0.859
+i:\Users\Peter\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\metrics\_classification.py:1471: UndefinedMetricWarning: Recall is ill-defined and being set to 0.0 due to no true samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+i:\Users\Peter\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\metrics\_classification.py:1471: UndefinedMetricWarning: Recall is ill-defined and being set to 0.0 due to no true samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+i:\Users\Peter\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\metrics\_classification.py:1471: UndefinedMetricWarning: Recall is ill-defined and being set to 0.0 due to no true samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+i:\Users\Peter\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\metrics\_classification.py:1471: UndefinedMetricWarning: Recall is ill-defined and being set to 0.0 due to no true samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+	Macro F1: 0.861
+
+
+
+
+
+Model 5
+Hidden layers: 100 	 Hidden layer size: 100 	 Activation function: tanh
+
+	Precision:
+		ULTRAKILL: 0.86
+		Mario Galaxy: 0.871
+
+	Recall:
+		ULTRAKILL: 0.89
+		Mario Galaxy: 0.843
+
+	F1:
+		ULTRAKILL: 0.873
+		Mario Galaxy: 0.855
+
+	Accuracy: 0.865
+	Macro F1: 0.873
+
+
+
+
+
+Model 6
+Hidden layers: 1 	 Hidden layer size: 1000 	 Activation function: tanh
+
+	Precision:
+		ULTRAKILL: 0.68
+		Mario Galaxy: 0.835
+
+	Recall:
+		ULTRAKILL: 0.682
+		Mario Galaxy: 0.753
+
+	F1:
+		ULTRAKILL: 0.674
+		Mario Galaxy: 0.763
+
+	Accuracy: 0.751
+	Macro F1: 0.674
+
+
+
+
+
+Model 7
+Hidden layers: 10 	 Hidden layer size: 1000 	 Activation function: tanh
+
+	Precision:
+		ULTRAKILL: 0.79
+		Mario Galaxy: 0.965
+
+	Recall:
+		ULTRAKILL: 0.97
+		Mario Galaxy: 0.798
+
+	F1:
+		ULTRAKILL: 0.868
+		Mario Galaxy: 0.871
+
+	Accuracy: 0.87
+	Macro F1: 0.868
+
+
+
+
+
+Model 8
+Hidden layers: 100 	 Hidden layer size: 1000 	 Activation function: tanh
+
+	Precision:
+		ULTRAKILL: 0.81
+		Mario Galaxy: 0.859
+
+	Recall:
+		ULTRAKILL: 0.883
+		Mario Galaxy: 0.799
+
+	F1:
+		ULTRAKILL: 0.84
+		Mario Galaxy: 0.821
+
+	Accuracy: 0.832
+	Macro F1: 0.84
+
+
+
+
+
+Model 9
+Hidden layers: 1 	 Hidden layer size: 10 	 Activation function: relu
+
+	Precision:
+		ULTRAKILL: 0.51
+		Mario Galaxy: 0.8
+
+	Recall:
+		ULTRAKILL: 0.508
+		Mario Galaxy: 0.5
+
+	F1:
+		ULTRAKILL: 0.49
+		Mario Galaxy: 0.605
+
+	Accuracy: 0.643
+i:\Users\Peter\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\metrics\_classification.py:1471: UndefinedMetricWarning: Recall is ill-defined and being set to 0.0 due to no true samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+i:\Users\Peter\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\metrics\_classification.py:1471: UndefinedMetricWarning: Recall is ill-defined and being set to 0.0 due to no true samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+i:\Users\Peter\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\metrics\_classification.py:1471: UndefinedMetricWarning: Recall is ill-defined and being set to 0.0 due to no true samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+i:\Users\Peter\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\metrics\_classification.py:1471: UndefinedMetricWarning: Recall is ill-defined and being set to 0.0 due to no true samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+i:\Users\Peter\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\metrics\_classification.py:1471: UndefinedMetricWarning: Recall is ill-defined and being set to 0.0 due to no true samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+	Macro F1: 0.49
+
+
+
+
+
+Model 10
+Hidden layers: 10 	 Hidden layer size: 10 	 Activation function: relu
+
+	Precision:
+		ULTRAKILL: 0.72
+		Mario Galaxy: 0.882
+
+	Recall:
+		ULTRAKILL: 0.714
+		Mario Galaxy: 0.803
+
+	F1:
+		ULTRAKILL: 0.712
+		Mario Galaxy: 0.814
+
+	Accuracy: 0.795
+	Macro F1: 0.712
+
+
+
+
+
+Model 11
+Hidden layers: 100 	 Hidden layer size: 10 	 Activation function: relu
+
+	Precision:
+		ULTRAKILL: 0.79
+		Mario Galaxy: 0.847
+
+	Recall:
+		ULTRAKILL: 0.881
+		Mario Galaxy: 0.795
+
+	F1:
+		ULTRAKILL: 0.816
+		Mario Galaxy: 0.808
+
+	Accuracy: 0.816
+	Macro F1: 0.816
+
+
+
+
+
+Model 12
+Hidden layers: 1 	 Hidden layer size: 100 	 Activation function: relu
+
+	Precision:
+		ULTRAKILL: 0.15
+		Mario Galaxy: 1.0
+
+	Recall:
+		ULTRAKILL: 0.2
+		Mario Galaxy: 0.522
+
+	F1:
+		ULTRAKILL: 0.171
+		Mario Galaxy: 0.678
+
+	Accuracy: 0.541
+	Macro F1: 0.171
+
+
+
+
+
+Model 13
+Hidden layers: 10 	 Hidden layer size: 100 	 Activation function: relu
+
+	Precision:
+		ULTRAKILL: 0.81
+		Mario Galaxy: 0.953
+
+	Recall:
+		ULTRAKILL: 0.956
+		Mario Galaxy: 0.813
+
+	F1:
+		ULTRAKILL: 0.875
+		Mario Galaxy: 0.876
+
+	Accuracy: 0.876
+	Macro F1: 0.875
+
+
+
+
+
+Model 14
+Hidden layers: 100 	 Hidden layer size: 100 	 Activation function: relu
+
+	Precision:
+		ULTRAKILL: 0.79
+		Mario Galaxy: 0.812
+
+	Recall:
+i:\Users\Peter\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\metrics\_classification.py:1471: UndefinedMetricWarning: Recall is ill-defined and being set to 0.0 due to no true samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+i:\Users\Peter\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\metrics\_classification.py:1471: UndefinedMetricWarning: Recall is ill-defined and being set to 0.0 due to no true samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+i:\Users\Peter\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\metrics\_classification.py:1471: UndefinedMetricWarning: Recall is ill-defined and being set to 0.0 due to no true samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+i:\Users\Peter\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\metrics\_classification.py:1471: UndefinedMetricWarning: Recall is ill-defined and being set to 0.0 due to no true samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+i:\Users\Peter\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\metrics\_classification.py:1471: UndefinedMetricWarning: Recall is ill-defined and being set to 0.0 due to no true samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+i:\Users\Peter\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\metrics\_classification.py:1471: UndefinedMetricWarning: Recall is ill-defined and being set to 0.0 due to no true samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+i:\Users\Peter\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\metrics\_classification.py:1471: UndefinedMetricWarning: Recall is ill-defined and being set to 0.0 due to no true samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+		ULTRAKILL: 0.833
+		Mario Galaxy: 0.771
+
+	F1:
+		ULTRAKILL: 0.809
+		Mario Galaxy: 0.789
+
+	Accuracy: 0.8
+	Macro F1: 0.809
+
+
+
+
+
+Model 15
+Hidden layers: 1 	 Hidden layer size: 1000 	 Activation function: relu
+
+	Precision:
+		ULTRAKILL: 0.3
+		Mario Galaxy: 1.0
+
+	Recall:
+		ULTRAKILL: 0.4
+		Mario Galaxy: 0.585
+
+	F1:
+		ULTRAKILL: 0.343
+		Mario Galaxy: 0.726
+
+	Accuracy: 0.622
+	Macro F1: 0.343
+
+
+
+
+
+Model 16
+Hidden layers: 10 	 Hidden layer size: 1000 	 Activation function: relu
+
+	Precision:
+		ULTRAKILL: 0.85
+		Mario Galaxy: 0.918
+
+	Recall:
+		ULTRAKILL: 0.928
+		Mario Galaxy: 0.843
+
+	F1:
+		ULTRAKILL: 0.885
+		Mario Galaxy: 0.877
+
+	Accuracy: 0.881
+	Macro F1: 0.885
+
+
+
+
+
+Model 17
+Hidden layers: 100 	 Hidden layer size: 1000 	 Activation function: relu
+
+	Precision:
+		ULTRAKILL: 0.87
+		Mario Galaxy: 0.812
+
+	Recall:
+		ULTRAKILL: 0.851
+		Mario Galaxy: 0.844
+
+	F1:
+		ULTRAKILL: 0.858
+		Mario Galaxy: 0.823
+
+	Accuracy: 0.843
+	Macro F1: 0.858
+
+
+
+
+
